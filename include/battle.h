@@ -124,7 +124,8 @@ struct SpecialStatus
     u8 dancerUsedMove:1;
     u8 criticalHit:1;
     u8 shellBellEmergencyExit:1;
-    u8 padding:2;
+    u8 breaksThroughProtectFully:1;
+    u8 padding:1;
     // End of byte
     u8 gemParam:7;
     u8 gemBoost:1;
@@ -535,11 +536,11 @@ struct PartyState
     u32 battleBondBoost:1;
     u32 transformZeroToHero:1;
     u32 supersweetSyrup:1;
-    u32 timesGotHit:5;
+    u32 timesGotHit:8;
     u32 changedSpecies:11; // For forms when multiple mons can change into the same Pokémon.
     u32 sentOut:1;
     u32 isKnockedOff:1;
-    u32 padding:8;
+    u32 padding:5;
     u16 usedHeldItem;
 };
 
@@ -579,9 +580,9 @@ struct BattleStruct
     u8 expGettersOrder[PARTY_SIZE]; // First battlers which were sent out, then via exp-share
     u8 expGetterMonId;
     u8 expOrderId:3;
-    u8 expGetterBattlerId:2;
     u8 teamGotExpMsgPrinted:1; // The 'Rest of your team got msg' has been printed.
-    u8 givenExpMons; // Bits for enemy party's Pokémon that gave exp to player's party.
+    u8 padding0:4;
+    u8 givenExpMons[2]; // Bits for enemy party's Pokémon that gave exp to player's party.
     u8 expSentInMons; // As bits for player party mons - not including exp share mons.
     u8 wildVictorySong;
     enum Type dynamicMoveType;
@@ -700,6 +701,7 @@ struct BattleStruct
     s16 moveDamage[MAX_BATTLERS_COUNT];
     u16 innardsOutHpLost[MAX_BATTLERS_COUNT];
     u32 moveResultFlags[MAX_BATTLERS_COUNT];
+    u32 savedMoveResultFlags[MAX_BATTLERS_COUNT]; // for Bounced moves
     u8 doneDoublesSpreadHit:1;
     u8 calculatedDamageDone:1;
     u8 calculatedSpreadMoveAccuracy:1;
