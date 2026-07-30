@@ -4,9 +4,10 @@ InsideOfTruck_MapScripts::
 	.byte 0
 
 InsideOfTruck_OnLoad:
-	setmetatile 4, 1, METATILE_InsideOfTruck_ExitLight_Top, FALSE
-	setmetatile 4, 2, METATILE_InsideOfTruck_ExitLight_Mid, FALSE
-	setmetatile 4, 3, METATILE_InsideOfTruck_ExitLight_Bottom, FALSE
+	setmetatile 6, 1, METATILE_InsideOfTruck_ExitLight_Top, FALSE
+	setmetatile 6, 2, METATILE_InsideOfTruck_ExitLight_Mid, FALSE
+	setmetatile 6, 3, METATILE_InsideOfTruck_ExitLight_Mid, FALSE
+	setmetatile 6, 4, METATILE_InsideOfTruck_ExitLight_Bottom, FALSE
 	end
 
 InsideOfTruck_OnResume:

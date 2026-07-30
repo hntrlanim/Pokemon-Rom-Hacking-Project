@@ -1738,3 +1738,13 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
 	.include "data/scripts/wild_encounter.inc"
+
+	.include "data/maps/Route135/scripts.inc"
+
+	.include "data/maps/MossgroveTown/scripts.inc"
+
+	.include "data/maps/Route136/scripts.inc"
+
+	.include "data/maps/TruckRoad/scripts.inc"
+
+	.include "data/maps/InsideOfTruck_2/scripts.inc"

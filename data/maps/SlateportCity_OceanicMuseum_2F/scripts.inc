@@ -433,3 +433,10 @@ SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
 	.string "“S.S. ANNE\p"
 	.string "“A replica of the luxury liner that\n"
 	.string "circles the globe.”$"
+
+@@@ NEW SCRIPTS FOR EWAW @@@
+
+SlateportCity_OceanicMuseum_2F_EventScript_ArchieFight::
+	trainerbattle_no_intro TRAINER_ARCHIE_OCEANIC_MUSEUM, TruckRaid_Text_RickDefeated
+	special HealPlayerParty
+	end

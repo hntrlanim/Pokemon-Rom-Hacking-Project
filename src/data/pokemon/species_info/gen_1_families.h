@@ -11326,7 +11326,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .baseSpeed     = P_UPDATED_STATS >= GEN_7 ? 110 : 100,
         .baseSpAttack  = 60,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_NORMAL, TYPE_FLYING),
+        .types = MON_TYPES(TYPE_GROUND, TYPE_FLYING),
         .catchRate = 45,
     #if P_UPDATED_EXP_YIELDS >= GEN_7
         .expYield = 165,

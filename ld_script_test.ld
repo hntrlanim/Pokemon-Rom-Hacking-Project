@@ -113,6 +113,7 @@ SECTIONS {
     ALIGN(4)
     {
         sound/songs/*.o(.rodata);
+        sound/songs/midi/mus_vs_gsc_trainer.o(.rodata);
     } > ROM =0
 
     lib_rodata :

@@ -16769,27 +16769,6 @@ Seadra
 Level: 38
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_THALIA_5 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Luvdisc
-Level: 40
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Wailord
-Level: 40
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Kingdra
-Level: 40
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
 === TRAINER_MARIELA ===
 Name: MARIELA
 Class: Psychic
@@ -16877,3 +16856,183 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROAD_GRUNT_1 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Shellder  
+Ability: Shell Armor  
+Level: 10  
+- Water Pulse  
+- Ice Shard  
+- Withdraw
+
+Remoraid  
+Ability: Hustle  
+Level: 10  
+- Bubble Beam  
+- Psybeam  
+- Screech
+
+=== TRAINER_ROAD_GRUNT_2 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Corphish  
+Ability: Hyper Cutter  
+Level: 10  
+- Bubble Beam  
+- Metal Claw  
+- Harden
+
+Buizel  
+Ability: Swift Swim  
+Level: 10  
+- Water Pulse  
+- Sonic Boom  
+- Growl
+
+=== TRAINER_ROAD_GRUNT_3 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Smart Trainer
+
+Tentacool  
+Ability: Clear Body  
+Level: 12   
+- Bubble Beam  
+- Acid Spray  
+- Barrier
+
+Carvanha  
+Ability: Rough Skin  
+Level: 12  
+- Water Pulse  
+- Assurance  
+- Scary Face
+
+Frillish (F)  
+Ability: Water Absorb  
+Level: 12
+- Bubble Beam  
+- Night Shade  
+- Acid Armor
+
+=== TRAINER_GREEN_TRUCK_ROTOM ===
+Name: GREEN
+Class: RSE Rival
+Pic: Leaf
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+
+Eevee
+Level: 15
+
+=== TRAINER_GREEN_TRUCK_EEVEE ===
+Name: GREEN
+Class: RSE Rival
+Pic: Leaf
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+
+Castform
+Level: 15
+
+=== TRAINER_GREEN_TRUCK_CASTFORM ===
+Name: GREEN
+Class: RSE Rival
+Pic: Leaf
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Smart Trainer
+Mugshot: Green
+
+Rotom
+Level: 15
+
+=== TRAINER_ARCHIE_OCEANIC_MUSEUM ===
+Name: ARCHIE
+Class: Aqua Leader
+Pic: Aqua Leader Archie
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+
+Kabutops @ Rindo Berry  
+Ability: Swift Swim  
+Level: 36  
+Lonely Nature  
+- Ancient Power  
+- Razor Shell  
+- X-Scissor  
+- Stealth Rock  
+
+Sharpedo @ Focus Sash  
+Ability: Intimidate  
+Level: 36  
+Happiness: 0    
+Naive Nature  
+- Flip Turn  
+- Crunch  
+- Frustration  
+- Ancient Power  
+
+Mamoswine @ Life Orb  
+Ability: Sheer Force  
+Level: 36   
+Brave Nature  
+- Icicle Crash  
+- Earth Power  
+- Liquidation
+- Ancient Power  
+
+Meganium @ Leftovers  
+Ability: Thick Fat  
+Level: 36  
+Relaxed Nature  
+- Giga Drain  
+- Weather Ball  
+- Earthquake  
+- Ancient Power  
+
+Dodrio @ Berserk Gene  
+Ability: Tangled Feet  
+Level: 36  
+Impish Nature  
+- Tri Attack  
+- Acrobatics  
+- Ancient Power  
+- Roost  
+
+Yanmega @ Charti Berry  
+Ability: Compound Eyes  
+Level: 36  
+Jolly Nature  
+- Skitter Smack  
+- Air Slash  
+- Hypnosis  
+- Ancient Power   

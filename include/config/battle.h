@@ -66,7 +66,7 @@
 #define B_UPDATED_MOVE_DATA         GEN_LATEST // Updates move data in gMovesInfo, including Power, Accuracy, PP, stat changes, targets and chances of secondary effects.
 #define B_UPDATED_MOVE_TYPES        GEN_LATEST // Updates move types.
 #define B_UPDATED_MOVE_FLAGS        GEN_LATEST // Updates move flags.
-#define B_PHYSICAL_SPECIAL_SPLIT    GEN_LATEST // In Gens1-3, the move's type determines if it will do physical or special damage. The split icon in the summary will reflect this.
+#define B_PHYSICAL_SPECIAL_SPLIT    GEN_3 // In Gens1-3, the move's type determines if it will do physical or special damage. The split icon in the summary will reflect this.
 #define B_RECOIL_IF_MISS_DMG        GEN_LATEST // In Gen5+, Jump Kick and High Jump Kick will always do half of the user's max HP when missing.
 #define B_KLUTZ_FLING_INTERACTION   GEN_LATEST // In Gen5+, Pokémon with the Klutz ability can't use Fling.
 #define B_UPDATED_CONVERSION        GEN_LATEST // In Gen6+, Conversion changes the user's type to match their first move's. Before, it would choose a move at random.
@@ -275,7 +275,7 @@
 #define NO_BAG_IN_BATTLE         2
 #define NO_BAG_INVALID_VALUE     3
 
-#define B_VAR_NO_BAG_USE         0     // If 1, the ability to use the bag in battle is disabled in trainer battles. If 2, it is also disabled in wild battles.
+#define B_VAR_NO_BAG_USE         1     // If 1, the ability to use the bag in battle is disabled in trainer battles. If 2, it is also disabled in wild battles.
 
 // Sky Battles
 #define B_FLAG_SKY_BATTLE                 0     // If this flag has a value, the player will be able to engage in scripted Sky Battles.
@@ -325,7 +325,7 @@
 #define B_HIDE_HEALTHBOX_IN_ANIMS           TRUE  // If set to TRUE, hides healthboxes during move animations.
 #define B_WAIT_TIME_MULTIPLIER              16    // This determines how long text pauses in battle last. Vanilla is 16. Lower values result in faster battles.
 #define B_QUICK_MOVE_CURSOR_TO_RUN          FALSE // If set to TRUE, pushing B in the battle options against a wild encounter will move the cursor to the run option
-#define B_RUN_TRAINER_BATTLE                TRUE  // If set to TRUE, players can run from Trainer battles. This is treated as a whiteout.
+#define B_RUN_TRAINER_BATTLE                FALSE  // If set to TRUE, players can run from Trainer battles. This is treated as a whiteout.
 #define B_MOVE_DESCRIPTION_BUTTON           L_BUTTON // If set to a button other than B_LAST_USED_BALL_BUTTON, pressing this button will open the move description menu
 #define B_SHOW_USELESS_Z_MOVE_INFO          FALSE // If set to TRUE, Z-moves without additional effects like newer gen status moves will say "no additional effect"
 #define B_ANIMATE_MON_AFTER_KO              TRUE // If set to TRUE, if a Pokémon on the opposite site faints, the non-fainted Pokemon will display a victory animation.
