@@ -2,11 +2,10 @@
   "id": "MAP_ROUTE122",
   "name": "Route122",
   "layout": "LAYOUT_ROUTE122",
-  "music": "MUS_ROUTE122",
-  "region": "REGION_HOENN",
+  "music": "MUS_MT_PYRE_EXTERIOR",
   "region_map_section": "MAPSEC_ROUTE_122",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
+  "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_ROUTE",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -28,13 +27,14 @@
   "object_events": [],
   "warp_events": [
     {
-      "x": 22,
-      "y": 29,
+      "x": 19,
+      "y": 36,
       "elevation": 0,
       "dest_map": "MAP_MT_PYRE_1F",
       "dest_warp_id": "0"
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [],
+  "region": "REGION_HOENN"
 }

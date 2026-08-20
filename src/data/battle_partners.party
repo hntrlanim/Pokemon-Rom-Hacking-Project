@@ -42,3 +42,65 @@ EVs: 252 Atk / 252 SpA / 6 SpD
 - Protect
 - Solar Beam
 - Dragon Claw
+
+=== PARTNER_PHOEBE ===
+Name: PHOEBE
+Class: Rival
+Pic: Leaf
+Gender: Female
+Music: Female
+AI: Smart Trainer / HP Aware / Omniscient / Ace Pokemon
+
+Sableye @ Leftovers  
+Ability: Prankster  
+Level: 52  
+Timid Nature  
+- Night Shade  
+- Seismic Toss  
+- Will-O-Wisp  
+- Thunder Wave  
+
+Gothitelle @ Light Clay  
+Ability: Magic Guard  
+Level: 52  
+Bold Nature  
+- Psychic  
+- Shadow Ball  
+- Reflect  
+- Light Screen  
+
+Parasect @ Scope Lens  
+Ability: Effect Spore  
+Level: 52  
+Brave Nature  
+- X-Scissor  
+- Shadow Claw  
+- Rage Powder  
+- Wide Guard  
+
+Marowak @ Thick Club  
+Ability: Lightning Rod  
+Level: 52  
+Adamant Nature  
+- Bone Club  
+- Shadow Bone  
+- Rock Slide  
+- Detect  
+
+Roserade @ Focus Sash  
+Ability: Technician  
+Level: 52  
+Mild Nature  
+- Magical Leaf  
+- Poison Jab  
+- Shadow Ball  
+- Extrasensory  
+
+Kingambit @ Black Glasses  
+Ability: Supreme Overlord  
+Level: 52  
+Quiet Nature  
+- Kowtow Cleave  
+- Iron Head  
+- Sucker Punch  
+- Aerial Ace  

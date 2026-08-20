@@ -2253,7 +2253,7 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
         //TODO
         break;
     case EFFECT_LOCK_ON:
-        if (gBattleMons[battlerAtk].volatiles.battlerWithSureHit == battlerDef + 1
+        if (gBattleMons[battlerAtk].volatiles.battlerWithSureHit != 0
           || aiData->abilities[battlerAtk] == ABILITY_NO_GUARD
           || aiData->abilities[battlerDef] == ABILITY_NO_GUARD
           || DoesPartnerHaveSameMoveEffect(BATTLE_PARTNER(battlerAtk), battlerDef, move, aiData->partnerMove))
@@ -3020,6 +3020,7 @@ static s32 AI_CheckBadMove(enum BattlerId battlerAtk, enum BattlerId battlerDef,
         score = 0;
 
     return score;
+    
 }
 
 static s32 AI_GetWhichBattlerFasterOrTies(enum BattlerId battlerAtk, enum BattlerId battlerDef, bool32 ignoreChosenMoves)

@@ -45,3 +45,31 @@ MtPyre_1F_Text_RestingPlaceOfZigzagoon:
 	.string "This is the final resting place of my\n"
 	.string "ZIGZAGOON. I cherished it…$"
 
+MtPyre_1F_EventScript_AquaTag1::
+	lockall
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	applymovement LOCALID_MALEGRUNT1, Common_Movement_ExclamationMark
+	applymovement LOCALID_FEMALEGRUNT1, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 60
+	applymovement LOCALID_PLAYER, Common_Movement_FaceLeft
+	waitmovement 0
+	msgbox MtPyre_2F_Text_LeahIntro, MSGBOX_DEFAULT
+	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	msgbox MtPyre_2F_Text_ZanderIntro, MSGBOX_DEFAULT
+	multi_2_vs_2 TRAINER_ZANDER, MtPyre_2F_Text_ZanderDefeat, TRAINER_LEAH, MtPyre_2F_Text_LeahDefeat, PARTNER_PHOEBE
+	setvar VAR_PYRETAG_1, 1
+	releaseall
+	end
+
+MtPyre_1F_EventScript_Zander::
+	trainerbattle_single TRAINER_ZANDER, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat
+	msgbox MtPyre_2F_Text_ZanderPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtPyre_1F_EventScript_Leah::
+	trainerbattle_single TRAINER_LEAH, MtPyre_2F_Text_LeahIntro, MtPyre_2F_Text_LeahDefeat
+	msgbox MtPyre_2F_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
+	end
+

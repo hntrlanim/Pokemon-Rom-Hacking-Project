@@ -545,16 +545,50 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ZANDER ===
 Name: ZANDER
-Class: Black Belt
-Pic: Black Belt
+Class: Team Aqua
+Pic: Aqua Grunt M
 Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try to Faint / Check Viability / Omniscient
 
-Hariyama
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Forretress @ Occa Berry  
+Ability: Shell Armor  
+Level: 50  
+Impish Nature  
+- Body Press  
+- Smart Strike  
+- Stealth Rock  
+- Curse  
+
+Altaria @ Yache Berry  
+Ability: Natural Cure  
+Level: 50  
+Lonely Nature  
+- Dragon Pulse  
+- Aerial Ace  
+- Aura Sphere  
+- Dragon Dance  
+
+Omastar @ Rindo Berry  
+Ability: Weak Armor  
+Level: 50  
+Calm Nature  
+IVs: 0 Atk  
+- Ancient Power  
+- Water Pulse  
+- Aurora Beam  
+- Shell Smash  
+
+Electrode-Hisui @ Wise Glasses  
+Ability: Soundproof  
+Level: 50   
+Modest Nature  
+IVs: 0 Atk  
+- Shock Wave  
+- Magical Leaf  
+- Foul Play  
+- Charge  
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -614,16 +648,50 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_LEAH ===
 Name: LEAH
-Class: Hex Maniac
-Pic: Hex Maniac
+Class: Team Aqua
+Pic: Aqua Grunt F
 Gender: Female
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move
+Music: Aqua
+Double Battle: Yes
+AI: Check Bad Move / Try to Faint / Check Viability / Omniscient
 
-Spoink
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Slowbro @ Leftovers  
+Ability: Shell Armor  
+Level: 50  
+Calm Nature  
+IVs: 0 Atk  
+- Hydro Pump  
+- Fire Blast  
+- Blizzard  
+- Mind Reader  
+
+Magnezone @ Life Orb  
+Ability: Levitate  
+Level: 50  
+Quiet Nature  
+IVs: 0 Atk  
+- Zap Cannon  
+- Flash Cannon  
+- Signal Beam  
+- Lock-On  
+
+Breloom @ Toxic Orb  
+Ability: Poison Heal  
+Level: 50  
+Adamant Nature  
+- Dynamic Punch  
+- Stone Edge  
+- Gunk Shot  
+- Mind Reader  
+
+Octillery @ Expert Belt 
+Ability: Moody
+Level: 50  
+Modest Nature  
+- Scald  
+- Flamethrower  
+- Ice Beam  
+- Lock-On  
 
 === TRAINER_DAISY ===
 Name: DAISY

@@ -3,7 +3,6 @@
   "name": "Route121",
   "layout": "LAYOUT_ROUTE121",
   "music": "MUS_ROUTE120",
-  "region": "REGION_HOENN",
   "region_map_section": "MAPSEC_ROUTE_121",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -33,8 +32,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
-      "x": 29,
-      "y": 14,
+      "x": 36,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -462,8 +461,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 32,
-      "y": 14,
+      "x": 35,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route121_EventScript_MtPyrePierSign"
@@ -536,5 +535,6 @@
       "item": "ITEM_MAX_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE_121_MAX_REVIVE"
     }
-  ]
+  ],
+  "region": "REGION_HOENN"
 }
