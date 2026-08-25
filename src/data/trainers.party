@@ -550,45 +550,46 @@ Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
 Double Battle: Yes
-AI: Check Bad Move / Try to Faint / Check Viability / Omniscient
+AI: Smart Trainer / Prefer Highest Damage Move / HP Aware
 
-Forretress @ Occa Berry  
-Ability: Shell Armor  
+Raichu @ Sitrus Berry  
+Ability: Lightning Rod  
 Level: 50  
-Impish Nature  
-- Body Press  
-- Smart Strike  
-- Stealth Rock  
-- Curse  
+Hasty Nature  
+Ball: Fast
+- Shock Wave  
+- Signal Beam  
+- Calm Mind  
+- Follow Me  
 
-Altaria @ Yache Berry  
-Ability: Natural Cure  
+Shiftry @ Expert Belt  
+Ability: Wind Rider  
 Level: 50  
-Lonely Nature  
-- Dragon Pulse  
+Timid Nature  
+Ball: Dusk
+- Magical Leaf  
+- Feint Attack  
+- Heat Wave  
+- Nasty Plot  
+
+Weavile @ Focus Sash  
+Ability: Pressure  
+Level: 50   
+Jolly Nature  
+Ball: Heavy
+- Shadow Punch  
 - Aerial Ace  
-- Aura Sphere  
-- Dragon Dance  
+- Brick Break  
+- Swords Dance  
 
-Omastar @ Rindo Berry  
-Ability: Weak Armor  
-Level: 50  
-Calm Nature  
-IVs: 0 Atk  
-- Ancient Power  
+Floatzel @ Wise Glasses  
+Ability: Water Veil  
+Level: 50   
+Naive Nature  
 - Water Pulse  
 - Aurora Beam  
-- Shell Smash  
-
-Electrode-Hisui @ Wise Glasses  
-Ability: Soundproof  
-Level: 50   
-Modest Nature  
-IVs: 0 Atk  
-- Shock Wave  
-- Magical Leaf  
-- Foul Play  
-- Charge  
+- Body Slam  
+- Bulk Up
 
 === TRAINER_SHELLY_WEATHER_INSTITUTE ===
 Name: SHELLY
@@ -653,23 +654,34 @@ Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
 Double Battle: Yes
-AI: Check Bad Move / Try to Faint / Check Viability / Omniscient
+AI: Smart Trainer / Prefer Highest Damage Move / HP Aware
 
-Slowbro @ Leftovers  
-Ability: Shell Armor  
+Octillery @ Scope Lens  
+Ability: Sniper  
 Level: 50  
-Calm Nature  
-IVs: 0 Atk  
+Modest Nature  
+Ball: Level
 - Hydro Pump  
 - Fire Blast  
+- Seed Bomb  
+- Lock-On  
+
+Slowbro-Galar @ Leftovers  
+Ability: Shell Armor  
+Level: 50  
+Brave Nature  
+Ball: Heal
+- Gunk Shot  
+- Focus Blast  
 - Blizzard  
-- Mind Reader  
+- Mind Reader   
 
 Magnezone @ Life Orb  
 Ability: Levitate  
 Level: 50  
 Quiet Nature  
 IVs: 0 Atk  
+Ball: Level
 - Zap Cannon  
 - Flash Cannon  
 - Signal Beam  
@@ -679,19 +691,11 @@ Breloom @ Toxic Orb
 Ability: Poison Heal  
 Level: 50  
 Adamant Nature  
+Ball: Strange
 - Dynamic Punch  
 - Stone Edge  
 - Gunk Shot  
 - Mind Reader  
-
-Octillery @ Expert Belt 
-Ability: Moody
-Level: 50  
-Modest Nature  
-- Scald  
-- Flamethrower  
-- Ice Beam  
-- Lock-On  
 
 === TRAINER_DAISY ===
 Name: DAISY
@@ -11773,47 +11777,97 @@ Graveler
 Level: 30
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-=== TRAINER_TRENT_5 ===
-Name: TRENT
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Graveler
-Level: 33
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Graveler
-Level: 33
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Graveler
-Level: 33
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Golem
-Level: 33
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_DEZ_AND_LUKE ===
-Name: DEZ & LUKE
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Girl
+=== TRAINER_DEZ ===
+Name: DEZ
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
 Double Battle: Yes
-AI: Check Bad Move
+AI: Sequence Switching / Double Battle / Check Bad Move / Try to Faint / Check Viability / Omniscient / HP Aware
 
-Delcatty
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shedinja @ Focus Sash  
+Ability: Wonder Guard  
+Level: 50  
+Ball: Dusk
+- Grudge  
 
-Manectric
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lanturn @ Leftovers  
+Ability: Lightning Rod  
+Level: 50   
+- Waterfall  
+- Thunderbolt  
+- Ice Beam  
+- Aqua Ring
+
+Shedinja @ Focus Sash  
+Ability: Wonder Guard  
+Level: 50  
+Ball: Dusk
+- Grudge  
+
+Cradily @ Big Root  
+Ability: Storm Drain  
+Level: 50  
+- Ancient Power  
+- Giga Drain  
+- Wring Out  
+- Earth Power
+
+Shedinja @ Focus Sash  
+Ability: Wonder Guard  
+Level: 50  
+Ball: Dusk
+- Grudge  
+
+=== TRAINER_LUKE ===
+Name: LUKE
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: Yes
+AI: Smart Trainer / Double Battle / HP Aware
+
+Electabuzz @ Magnet 
+Ability: Static  
+Level: 50  
+Modest Nature 
+Ball: Sport
+- Discharge  
+- Psychic  
+- Fire Punch  
+- Ice Punch  
+
+Exploud @ Silk Scarf  
+Ability: Scrappy  
+Level: 50  
+Adamant Nature  
+Ball: Timer
+- Boomburst  
+- Brick Break
+- Shadow Ball  
+- Rock Slide
+
+Swampert @ Soft Sand  
+Ability: Torrent  
+Level: 50  
+Brave Nature  
+Ball: Lure
+- Waterfall  
+- Earthquake  
+- Ice Beam  
+- Superpower  
+
+Overqwil @ Poison Barb  
+Ability: Poison Point  
+Level: 50  
+Naughty Nature
+Ball: Dusk
+- Dark Pulse  
+- Sludge Wave  
+- Liquidation  
+- Shadow Ball
 
 === TRAINER_LEA_AND_JED ===
 Name: LEA & JED

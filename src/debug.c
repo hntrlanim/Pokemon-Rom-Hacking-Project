@@ -4262,7 +4262,8 @@ static void DebugAction_DestroyFollowerNPC(u8 taskId)
     X(MUS_RG_TRAINER_TOWER)         \
     X(MUS_RG_SLOW_PALLET)           \
     X(MUS_RG_TEACHY_TV_MENU)        \
-    X(MUS_VS_GSC_TRAINER)
+    X(MUS_VS_GSC_TRAINER)           \
+    X(MUS_VS_LEGEND)
 
 #define SOUND_LIST_SE               \
     X(SE_USE_ITEM)                  \

@@ -46,10 +46,10 @@ EVs: 252 Atk / 252 SpA / 6 SpD
 === PARTNER_PHOEBE ===
 Name: PHOEBE
 Class: Rival
-Pic: Leaf
+Pic: Elite Four Phoebe
 Gender: Female
 Music: Female
-AI: Smart Trainer / HP Aware / Omniscient / Ace Pokemon
+AI: Smart Trainer / HP Aware / Ace Pokemon
 
 Sableye @ Leftovers  
 Ability: Prankster  
@@ -101,6 +101,6 @@ Ability: Supreme Overlord
 Level: 52  
 Quiet Nature  
 - Kowtow Cleave  
-- Iron Head  
+- Tachyon Cutter
 - Sucker Punch  
 - Aerial Ace  

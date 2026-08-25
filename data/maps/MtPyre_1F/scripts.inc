@@ -58,7 +58,7 @@ MtPyre_1F_EventScript_AquaTag1::
 	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
 	waitmovement 0
 	msgbox MtPyre_2F_Text_ZanderIntro, MSGBOX_DEFAULT
-	multi_2_vs_2 TRAINER_ZANDER, MtPyre_2F_Text_ZanderDefeat, TRAINER_LEAH, MtPyre_2F_Text_LeahDefeat, PARTNER_PHOEBE
+	multi_2_vs_2 TRAINER_LEAH, MtPyre_2F_Text_LeahDefeat, TRAINER_ZANDER, MtPyre_2F_Text_ZanderDefeat, PARTNER_PHOEBE
 	setvar VAR_PYRETAG_1, 1
 	releaseall
 	end

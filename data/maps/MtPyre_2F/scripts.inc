@@ -23,23 +23,29 @@ MtPyre_2F_EventScript_Mark::
 	end
 
 MtPyre_2F_EventScript_Luke::
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
 	msgbox MtPyre_2F_Text_LukePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_2F_EventScript_Dez::
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
 	msgbox MtPyre_2F_Text_DezPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-MtPyre_2F_EventScript_Leah::
-	trainerbattle_single TRAINER_LEAH, MtPyre_2F_Text_LeahIntro, MtPyre_2F_Text_LeahDefeat
-	msgbox MtPyre_2F_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-MtPyre_2F_EventScript_Zander::
-	trainerbattle_single TRAINER_ZANDER, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat
-	msgbox MtPyre_2F_Text_ZanderPostBattle, MSGBOX_AUTOCLOSE
+MtPyre_2F_EventScript_AquaTag2::
+	lockall
+	playbgm MUS_ENCOUNTER_AQUA, FALSE
+	applymovement LOCALID_MALEGRUNT2, Common_Movement_ExclamationMark
+	applymovement LOCALID_FEMALEGRUNT2, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 60
+	applymovement LOCALID_PLAYER, Common_Movement_FaceLeft
+	waitmovement 0
+	msgbox MtPyre_2F_Text_LukeIntro, MSGBOX_DEFAULT
+	applymovement LOCALID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	msgbox MtPyre_2F_Text_DezIntro, MSGBOX_DEFAULT
+	multi_2_vs_2 TRAINER_DEZ, MtPyre_2F_Text_DezDefeat, TRAINER_LUKE, MtPyre_2F_Text_LukeDefeat, PARTNER_PHOEBE
+	setvar VAR_PYRETAG_2, 1
+	releaseall
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:

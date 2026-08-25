@@ -114,6 +114,7 @@ SECTIONS {
     {
         sound/songs/*.o(.rodata);
         sound/songs/midi/mus_vs_gsc_trainer.o(.rodata);
+        sound/songs/midi/mus_vs_legend.o(.rodata);
     } > ROM =0
 
     lib_rodata :
