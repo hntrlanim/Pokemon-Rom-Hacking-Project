@@ -28964,6 +28964,8 @@ gBattleAnimGeneral_TurnTrap::
 	jumpargeq 0, TRAP_ANIM_INFESTATION, Status_Infestation
 	jumpargeq 0, TRAP_ANIM_SNAP_TRAP, Status_Snap_Trap
 	jumpargeq 0, TRAP_ANIM_THUNDER_CAGE, Status_Thunder_Cage
+	jumpargeq 0, TRAP_ANIM_TWISTER, Status_Twister
+	jumpargeq 0, TRAP_ANIM_SUBMISSION, Status_Submission
 	goto Status_BindWrap
 Status_BindWrap:
 	loopsewithpan SE_M_SCRATCH, SOUND_PAN_TARGET, 6, 2
@@ -29072,6 +29074,12 @@ Status_Infestation:
 	waitforvisualfinish
 	clearmonbg ANIM_DEF_PARTNER
 	end
+
+Status_Twister:
+	goto gBattleAnimMove_Twister
+
+Status_Submission:
+	goto gBattleAnimMove_Submission
 
 gBattleAnimGeneral_HeldItemEffect::
 	delay 0

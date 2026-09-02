@@ -6425,6 +6425,15 @@ static inline u32 CalcMoveBasePowerAfterModifiers(struct DamageContext *ctx)
             modifier = uq4_12_multiply(modifier, UQ_4_12(0.5));
         break;
     }
+    case EFFECT_MOONBLAST:
+    {
+        u32 weather = GetAttackerWeather(ctx->holdEffects[ctx->battlerAtk], ctx->abilities[ctx->battlerAtk], ctx->weather);
+        if (weather & (B_WEATHER_RAIN | B_WEATHER_ICY_ANY | B_WEATHER_FOG | B_WEATHER_SANDSTORM))
+            modifier = uq4_12_multiply(modifier, UQ_4_12(0.75));
+        else if (weather & (B_WEATHER_SUN))
+            modifier = uq4_12_multiply(modifier, UQ_4_12(1.25));
+        break;
+    }
     case EFFECT_STOMPING_TANTRUM:
         if (gBattleStruct->battlerState[battlerAtk].stompingTantrumTimer == 1)
             modifier = uq4_12_multiply(modifier, UQ_4_12(2.0));

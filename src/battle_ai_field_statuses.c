@@ -208,6 +208,7 @@ static bool32 IsLightSensitiveMove(enum Move move)
     case EFFECT_SYNTHESIS:
     case EFFECT_MOONLIGHT:
     case EFFECT_GROWTH:
+    case EFFECT_MOONBLAST:
         return TRUE;
     default:
         return FALSE;

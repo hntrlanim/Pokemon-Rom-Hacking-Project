@@ -889,6 +889,8 @@ const u8 *const gBattleStringsTable[STRINGID_COUNT] =
     [STRINGID_LIGHTSCREENWOREOFF]                   = COMPOUND_STRING("{B_DEF_TEAM1} team's Light Screen wore off!"),
     [STRINGID_AURORAVEILWOREOFF]                    = COMPOUND_STRING("{B_DEF_TEAM1} team's Aurora Veil wore off!"),
     [STRINGID_STICKYWEBDISAPPEAREDFROMYOU]          = COMPOUND_STRING("The sticky web has disappeared from the ground around you!"),
+    [STRINGID_TWISTERTRAPPED]                       = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} became trapped in the Twister!"),
+    [STRINGID_SUBMISSIONTRAPPED]                    = COMPOUND_STRING("{B_EFF_NAME_WITH_PREFIX} became trapped in a chokehold!"),
 };
 
 const u16 gTrainerUsedItemStringIds[] =
@@ -1148,6 +1150,9 @@ const u16 gWrappedStringIds[NUM_TRAPPING_MOVES] =
     [B_MSG_WRAPPED_INFESTATION] = STRINGID_INFESTATION,            // MOVE_INFESTATION
     [B_MSG_WRAPPED_SNAP_TRAP]   = STRINGID_PKMNINSNAPTRAP,         // MOVE_SNAP_TRAP
     [B_MSG_WRAPPED_THUNDER_CAGE]= STRINGID_THUNDERCAGETRAPPED,     // MOVE_THUNDER_CAGE
+    [B_MSG_WRAPPED_TWISTER]     = STRINGID_TWISTERTRAPPED,         // MOVE_TWISTER
+    [B_MSG_WRAPPED_SUBMISSION]  = STRINGID_SUBMISSIONTRAPPED,      // MOVE_SUBMISSION
+
 };
 
 const u16 gMistUsedStringIds[] =
